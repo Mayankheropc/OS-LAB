@@ -1,0 +1,18 @@
+Shortest Job First (SJF) -
+The Shortest Job First (SJF) is a scheduling policy that selects the waiting process with the smallest execution time to execute next.
+It is also known as Shortest Job Next (SJN) or Shortest Process Next (SPN). It is a non-preemptive scheduling algorithm.
+
+Shortest Remaining Job First (SRJF) -
+The Shortest Remaining Job First (SRJF) is the preemptive version of SJF scheduling. In this scheduling algorithm, 
+the process with the smallest amount of time remaining until completion is selected to execute. Processes having same arrival time will convert SRTF to SJF.
+
+
+Shortest Job First:                                               	            Shortest Remaining Job First:
+It is a non-preemptive algorithm.	                                              It is a preemptive algorithm.
+It involves less overheads than SRJF.	                                          It involves more overheads than SJF.
+It is slower in execution than SRJF.	                                          It is faster in execution than SJF.
+It leads to comparatively lower throughput.	                                    It leads to increased throughput as execution time is less.
+It minimizes the average waiting time for each process.                      	  It may or may not minimize the average waiting time for each process.
+It may suffer from priority inversion.	                                        It may suffer from convoy effect.
+It involves lesser number of context switching.	                                It involves higher number of context switching.
+Short processes are executed first and then followed by longer processes.    	  Shorter processes run fast and longer processes show poor response time.
